@@ -1,16 +1,19 @@
-source_id,article_author_and_title,page,side,quantity,value_min,value_max,unit,what_exactly_counted,quote_or_note
-6,Кротов П.А. Битва под Полтавой,28,Swedish,8000,None,None,people,total Swedish force (historical estimate),Contemporary evaluation by J.-B.-C. de Torcy before the battle
-6,Кротов П.А. Битва под Полтавой,28,Russian,80000,None,None,people,Russian infantry force (historical estimate),Contemporary evaluation by J.-B.-C. de Torcy before the battle
-6,Кротов П.А. Битва под Полтавой,62,Russian,28738,None,None,people,total baseline Russian force (Narva baseline),Comparative operational size for Lanchester variables Xi
-6,Кротов П.А. Битва под Полтавой,"62, 63",Swedish,10500,4800,10800,people,Swedish striking force / landing corps,Comparative operational size range for opposing side Xj
-6,Кротов П.А. Битва под Полтавой,"60, 64",Swedish,8000,None,None,infantrymen,Swedish infantry component,Breakdown for mixed-force vector components
-6,Кротов П.А. Битва под Полтавой,"60, 64",Swedish,4000,None,None,cavalrymen,Swedish cavalry component,Breakdown for mixed-force vector components
-6,Кротов П.А. Битва под Полтавой,"60, 64",Swedish,4,None,None,cannons,regimental 3-pounder guns,Attrition effectiveness parameter multiplier (matrix D)
-6,Кротов П.А. Битва под Полтавой,"78, 79",Swedish,13000,None,None,people,Lewenhaupt's separate corps (pre-Lesnaya),Multilateral reinforcement vector element
-6,Кротов П.А. Битва под Полтавой,"78, 79",Swedish,6503,None,None,people,Lewenhaupt's survivors joining main army,Actual active units entering the main theatre
-6,Кротов П.А. Битва под Полтавой,79,Swedish,10000,None,None,people,Krassow's corps left in Poland,Multilateral secondary front vector (Xk)
-6,Кротов П.А. Битва под Полтавой,79,Polish (pro-Swedish),16000,None,None,people,Stanislaw Leszczynski's auxiliary army,Allied multilateral vector component
-6,Кротов П.А. Битва под Полтавой,74,Russian,11800,None,None,people,"Moscow defense ""lance army"" total",Planned strategic reserve total size
-6,Кротов П.А. Битва под Полтавой,74,Russian,7200,None,None,infantrymen,"Moscow defense ""lance army"" infantry component",Planned infantry reserve component
-6,Кротов П.А. Битва под Полтавой,74,Russian,4600,None,None,cavalrymen,"Moscow defense ""lance army"" dragoon component",Planned dragoon reserve component
-6,Кротов П.А. Битва под Полтавой,82,Swedish (Cossack),10000,None,None,Cossacks & Serdiuks,Zaporozhian Cossacks and guard units under Mazepa,Irregular multilateral faction vector in 3D/4D model
+row_id,source_id,article_author_and_title,page_printed,date_or_context,side,quantity,value,value_min,value_max,unit,what_exactly_counted,quote_or_paraphrase,verified
+O01,6,Кротов П.А. Битва под Полтавой,270,27.06.1709 (авторський розрахунок за документами 1709 р.),Russian,regular_troops_total,57200,,,people,"строєвий склад регулярних військ, зосереджений для генеральної битви (піхота+кіннота+польова артилерія)","«около 57 200 наличного строевого состава профессиональных войск»",yes
+O02,6,Кротов П.А. Битва под Полтавой,270,27.06.1709 (за «Табелью» Меншикова 1711; з урахуванням 80% укомплектованості),Russian,infantry,32600,,,people,"піхота 90 батальйонів (ретраншемент + допоміжні укріплення + гарнізони); сам текст зазначає завищеність списочного числа","«При 80-процентной укомплектованности это составит около 32 600 пехотинцев»",yes
+O03,6,Кротов П.А. Битва под Полтавой,270; 272,27.06.1709,Russian,regular_cavalry,21050,,,people,"регулярна кіннота в справі, включно з офіцерами","«округлённо 21 050 бойцов, включая офицеров»",yes
+O04,6,Кротов П.А. Битва под Полтавой,270,04.05.1709,Russian,field_artillery_crew,328,,,people,"стройові чини польової артилерії","«На 4 мая 1709 г. числились 328 строевых чинов»",yes
+O05,6,Кротов П.А. Битва под Полтавой,271,27.06.1709,Russian,irregulars,23000,,23000,people,"нерегулярні війська (козаки та ін.) «готові» до бою; верхня оцінка","«до 23 000 бойцов нерегулярных российских»",yes
+O06,6,Кротов П.А. Битва под Полтавой,273,27.06.1709,Russian,engaged_regulars,42660,,,people,"регулярні війська, які реально застосували зброю в бою (підсумок розрахунку автора)","«42 660 чел.»",yes
+O07,6,Кротов П.А. Битва под Полтавой,373-374,27.06.1709 (друга фаза),Russian,infantry_first_line,10000,,10000,people,"піхота першої лінії, що билась з ворогом (реально, менше 10 000)","«с десять тысяч не обреталось»; автор: реальна кількість трохи менша за 10 000 (укомплектованість ~80%)",yes
+O08,6,Кротов П.А. Битва под Полтавой,274,27.06.1709,Russian,guns,102,69,122,cannons,"гармати в російських військах у битві: 69 (32 польові+37 полкові) за традицією; 102 за Колосовим; +20 мортир-гармат (2002) = 122","«всего… имелись 102 орудия»; ще 20 гармат-мортир 6-фунт.",yes
+O09,6,Кротов П.А. Битва под Полтавой,371-372,27.06.1709 (перша фаза біля редутів),Russian,cavalry_plus_redoubt_garrison,25000,,,people,"~21 000 регулярної кінноти + майже 4000 гарнізону редутів проти ~16 000 шведів","«21-тысячная русская регулярная кавалерия… почти 4-тысячного гарнизона редутов»",yes
+O10,6,Кротов П.А. Битва под Полтавой,297,27.06.1709 (атака),Swedish,attacking_force,17000,16000,17000,people,"каролінці, що рушили в наступ під проводом короля","«около 17 000 каролинцев»; на с. 371–372 — «16-тысячная»",yes
+O11,6,Кротов П.А. Битва под Полтавой,297,27.06.1709 (перед світанком),Swedish,combat_total,24300,,,people,"весь строєвий склад шведської армії за Енґлундом (+2250 хворих/поранених у обозі = 26 550)","«24 300 чел.»; розрахунок Кротова 24 392",yes
+O12,6,Кротов П.А. Битва под Полтавой,296,27.06.1709,Swedish,cavalry_reserve,4300,,,people,"6 рейтарських (2142) і 5 драгунських (2150) полків у резерві біля Пушкарівки","«всего около 4300 кавалеристов»",yes
+O13,6,Кротов П.А. Битва под Полтавой,284,27.06.1709,Swedish,field_guns,4,,,cannons,"3-фунтові гармати, взяті в бій (при них ~30 артилеристів)","«всего лишь 4 пушки 3-фунтового калибра»; усього в армії 41 гармата",yes
+O14,6,Кротов П.А. Битва под Полтавой,82,27.06.1709,Swedish-allied,irregulars,10000,,10000,people,"запорозькі козаки та сердюки Мазепи","«до десяти тысяч запорожских казаков и сердюков»",yes
+O15,6,Кротов П.А. Битва под Полтавой,413,27.06.1709,Russian,killed,1345,,,people,"офіційні втрати вбитими (624 кіннотників, 712 піхотинців, 9 артилеристів)","«1345 убитых»; за іншим варіантом реляції 1344",yes
+O16,6,Кротов П.А. Битва под Полтавой,413,27.06.1709,Russian,wounded,3290,,,people,"офіційні втрати пораненими (1454+1825+11)","«3290 раненых»; за іншим варіантом 3292",yes
+O17,6,Кротов П.А. Битва под Полтавой,425,27.06.1709,Swedish,killed,8619,7800,8619,people,"поховано на полі бою і навколо за першою реляцією; Кротов вважає завищеним і оцінює до 7800 (с. 432)","«сочли и погребли швецких мертвых тел 8619 человек»",yes
+O18,6,Кротов П.А. Битва под Полтавой,424,27.06.1709,Swedish,captured,2973,,,people,"полонені стройового складу в битві","«2973 чел. строевого состава»",yes
