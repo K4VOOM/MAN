@@ -1,1 +1,16 @@
 source_id,article_author_and_title,page,side,quantity,value_min,value_max,unit,what_exactly_counted,quote_or_note
+6,Кротов П.А. Битва под Полтавой,28,Swedish,8000,None,None,people,total Swedish force (historical estimate),Contemporary evaluation by J.-B.-C. de Torcy before the battle
+6,Кротов П.А. Битва под Полтавой,28,Russian,80000,None,None,people,Russian infantry force (historical estimate),Contemporary evaluation by J.-B.-C. de Torcy before the battle
+6,Кротов П.А. Битва под Полтавой,62,Russian,28738,None,None,people,total baseline Russian force (Narva baseline),Comparative operational size for Lanchester variables Xi
+6,Кротов П.А. Битва под Полтавой,"62, 63",Swedish,10500,4800,10800,people,Swedish striking force / landing corps,Comparative operational size range for opposing side Xj
+6,Кротов П.А. Битва под Полтавой,"60, 64",Swedish,8000,None,None,infantrymen,Swedish infantry component,Breakdown for mixed-force vector components
+6,Кротов П.А. Битва под Полтавой,"60, 64",Swedish,4000,None,None,cavalrymen,Swedish cavalry component,Breakdown for mixed-force vector components
+6,Кротов П.А. Битва под Полтавой,"60, 64",Swedish,4,None,None,cannons,regimental 3-pounder guns,Attrition effectiveness parameter multiplier (matrix D)
+6,Кротов П.А. Битва под Полтавой,"78, 79",Swedish,13000,None,None,people,Lewenhaupt's separate corps (pre-Lesnaya),Multilateral reinforcement vector element
+6,Кротов П.А. Битва под Полтавой,"78, 79",Swedish,6503,None,None,people,Lewenhaupt's survivors joining main army,Actual active units entering the main theatre
+6,Кротов П.А. Битва под Полтавой,79,Swedish,10000,None,None,people,Krassow's corps left in Poland,Multilateral secondary front vector (Xk)
+6,Кротов П.А. Битва под Полтавой,79,Polish (pro-Swedish),16000,None,None,people,Stanislaw Leszczynski's auxiliary army,Allied multilateral vector component
+6,Кротов П.А. Битва под Полтавой,74,Russian,11800,None,None,people,"Moscow defense ""lance army"" total",Planned strategic reserve total size
+6,Кротов П.А. Битва под Полтавой,74,Russian,7200,None,None,infantrymen,"Moscow defense ""lance army"" infantry component",Planned infantry reserve component
+6,Кротов П.А. Битва под Полтавой,74,Russian,4600,None,None,cavalrymen,"Moscow defense ""lance army"" dragoon component",Planned dragoon reserve component
+6,Кротов П.А. Битва под Полтавой,82,Swedish (Cossack),10000,None,None,Cossacks & Serdiuks,Zaporozhian Cossacks and guard units under Mazepa,Irregular multilateral faction vector in 3D/4D model
