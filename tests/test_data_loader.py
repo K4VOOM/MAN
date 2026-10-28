@@ -1,5 +1,7 @@
 import math
+import pytest
 from data_loader import load_parameters
+from lanchester import run_battle
 
 def test_s0_phase1_values():
     params = load_parameters()
